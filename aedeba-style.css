@@ -1,0 +1,146 @@
+#headline-aedeba {
+	position: relative;
+	height: 30rem;
+	background: url(aedeba-bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+	overflow: hidden;
+	z-index: 1000;
+}
+#headline-aedeba .text-holder {
+	position: absolute;
+	left: 50%;
+	top: 35%;
+	transform: translateX(-50%);
+	text-align: center;
+	font-weight: 700;
+	color: #f7f7f7;
+	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+	z-index: 1500;
+}
+#headline-aedeba h1 {
+	font-size: 78px;
+}
+#headline-aedeba h4 {
+	font-size: 48px;
+}
+#sections {
+	background-color: #BC986A;
+
+}
+#sections h2 {
+	color: #fff;
+}
+#sections .card {
+	height: 300px;
+}
+section  .main-a {
+	color: #333;
+}
+#sections a:hover {
+	color: #111;
+}
+#events .card-grid{
+	display:grid;
+	grid-template-columns:repeat(4, 1fr);
+    grid-auto-rows:150px;
+    grid-gap:1em;
+    justify-items:start;
+    align-items:start;
+}
+#events .card1 {
+    grid-column:2/4;
+    grid-row:1/4;
+}
+#events .card2 {
+    grid-column:1/2;
+    grid-row:1/2;
+ }
+#events .card3 {
+    grid-column:1/2;
+    grid-row:2/3;
+}
+#events .card4 {
+    grid-column:1/2;
+    grid-row:3/4;
+}
+#development {
+	background-color: #659DBD;
+}
+#development h2 {
+	color: #f7f7f7;
+}
+#development i {
+	padding: 1px 5px;
+}
+#events span {
+	position: absolute;
+	padding: 5px;
+	background-color: #FFE400;
+	border-radius: 4px;
+	line-height: 1;
+}
+.card-main span.date {
+	top: 8px;
+	right: 8px;
+}
+.card-main span.location {
+	top: 265px;
+	right: 8px;
+}
+.card-side span.date {
+	top: 4px;
+	left: 4px;
+}
+.card-side span.location {
+	bottom: 4px;
+	left: 4px;
+}
+#team .card {
+	background: transparent;
+	border: none;
+}
+#team i {
+	padding: 1px 5px;
+}
+#team .icon-holder {
+	font-size: 28px;
+}
+#about-AEDEBA {
+	color: #fff;
+	background-color: #8D8741;
+}
+#about-AEDEBA hr {
+    overflow: visible; /* For IE */
+    margin: 1.5rem 5rem;
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+    opacity: 0.8;
+}
+#about-AEDEBA hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.75em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #8D8741;
+}
+@media (max-width: 1120px) {
+	#events .card-grid {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+#headline-aedeba .text-holder {
+	top: 30%;
+}
+#headline-aedeba h1 {
+	font-size: 34px;
+}
+#headline-aedeba h4 {
+	font-size: 28px;
+}
+}
