@@ -724,7 +724,9 @@ footer .footer-copyright {
     transform: scale(1.1);
 }
 
-
+.achu {
+  background: url(../images/kitchen.jpg);
+}
 
 /*---------------------------------------
    Mobile Responsive         

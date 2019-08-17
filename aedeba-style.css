@@ -30,9 +30,6 @@
 #sections h2 {
 	color: #fff;
 }
-#sections .card {
-	height: 300px;
-}
 section  .main-a {
 	color: #333;
 }
@@ -95,6 +92,9 @@ section  .main-a {
 	bottom: 4px;
 	left: 4px;
 }
+#offer {
+	background-color: #8D8741;
+}
 #team .card {
 	background: transparent;
 	border: none;
@@ -106,8 +106,6 @@ section  .main-a {
 	font-size: 28px;
 }
 #about-AEDEBA {
-	color: #fff;
-	background-color: #8D8741;
 }
 #about-AEDEBA hr {
     overflow: visible; /* For IE */
@@ -126,7 +124,7 @@ section  .main-a {
     top: -0.75em;
     font-size: 1.5em;
     padding: 0 0.25em;
-    background: #8D8741;
+    background: #FBEEC1;
 }
 @media (max-width: 1120px) {
 	#events .card-grid {

@@ -305,6 +305,18 @@ section h2 {
 #footer #bottom-line p {
 	margin-bottom: 0;
 }
+#tourism {
+	background-color: #8D8741;
+	color: #fff;
+}
+#tourism h2 {
+	color: #fff;
+	border-color: #fff;
+}
+#tourism .card-deck {
+	color: #000;
+}
+
 html {
 	scroll-behavior: smooth;
 }
