@@ -727,7 +727,12 @@ footer .footer-copyright {
 .achu {
   background: url(../images/kitchen.jpg);
 }
-
+.household {
+  background: url(../images/household0.jpg);
+}
+.dance {
+  background: url(../images/dance0.jpg);
+}
 /*---------------------------------------
    Mobile Responsive         
 -----------------------------------------*/
