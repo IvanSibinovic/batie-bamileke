@@ -349,14 +349,6 @@ a .carde {
 .big-carde p:hover{
 	text-decoration: none;
 }
-@media (max-width: 600px) {
-	.big-carde, .small-carde {
-    	width: 310px;
-    }
-    .small-carde {
-    	height: 150px;
-    }
-}
 #economy {
 	background-color: #BC986A;
 }
@@ -501,5 +493,44 @@ html {
 	}
 	#headline h4 {
 		font-size: 26px;
+	}
+}
+@media (max-width: 600px) {
+	nav a span {
+		font-size: 20px;
+	}
+	img#logo {
+		height: 50px;
+		width: 50px;
+	}
+	#headline h1, #headline h4 {
+		font-size: 18px
+	}
+	.big-carde, .small-carde {
+    	width: 310px;
+    }
+    .big-carde {
+    	height: 420px;
+    }
+    .big-carde p, .small-carde p{
+    	display: none;
+    }
+    .big-carde .text-muted, .small-carde .text-muted{
+    	font-size: 12px;
+    }
+    .big-carde h4, .small-carde h4{
+    	font-size: 28px;
+    }
+    .small-carde {
+    	height: 150px;
+    }
+}
+@media (max-width: 325px) {
+	nav a span {
+		font-size: 18px;
+	}
+	img#logo {
+		height: 40px;
+		width: 40px;
 	}
 }
