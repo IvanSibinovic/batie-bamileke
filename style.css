@@ -495,6 +495,11 @@ html {
 		font-size: 26px;
 	}
 }
+@media (max-width: 750px) {
+	.goSmall {
+		font-size: 16px;
+	}
+}
 @media (max-width: 600px) {
 	nav a span {
 		font-size: 20px;
@@ -524,6 +529,9 @@ html {
     .small-carde {
     	height: 150px;
     }
+    .goSmall {
+		display: none;
+	}
 }
 @media (max-width: 325px) {
 	nav a span {
