@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Comfortaa", sans-serif;
+}
+
+.explanation {
+  background: var(--color);
+  grid-column: span 6;
+  padding: 28px;
+  color: #fff;
+  line-height: 1.7;
+}
+.explanation a {
+  text-decoration: none;
+  color: #fff;
+  padding: 3px 0;
+  border-bottom: 1px dashed;
+}
+.explanation a:hover {
+  border-bottom: 1px solid;
+}
+
+footer {
+  background: var(--color);
+  text-align: center;
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  place-content: center;
+}
+footer a {
+  text-decoration: none;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px dashed #fff;
+  color: #fff;
+  margin: 0 5px;
+}
+footer a:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+footer a .icons {
+  margin-top: 8px;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.date {
+  background: var(--color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  position: relative;
+  font-size: 20px;
+  border: 0.5px solid #ddd;
+}
+.date .day-of-month {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: #333;
+  font-size: 14px;
+}
+.date .day-of-week {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #333;
+  font-size: 16px;
+}
+.month {
+  background: var(--color);
+  font: 900 75px "Montserrat", sans-serif;
+  text-transform: uppercase;
+  padding: 40px 30px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  text-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
+  border: 0.5px solid #ddd;
+}
+.month--sept {
+  grid-column: span 6;
+}
+.month--oct {
+  grid-column: span 6;
+}
+.month--nov1 {
+  grid-column: span 3;
+}
+.month--nov {
+  grid-column: span 4;
+}
+.month--title {
+  grid-column: span 6;
+  text-align: right;
+  padding-right: 60px;
+}
+
+.main-content {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-rows: repeat(17, 170px);
+  grid-template-columns: repeat(7, minmax(170px, 1fr));
+}
+.event {
+  z-index: 10;
+  background: transparent;
+  padding-top: 40px;
+}
+.event__name {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+  font-size: 14px;
+}
+/*.event--1 {
+  grid-column: 3 / span 1;
+  grid-row: 3;
+}
+.event--2 {
+  grid-column: 4 / span 3;
+  grid-row: 3;
+  padding-top: 85px;
+}
+.event--3 {
+  grid-column: 2;
+  grid-row: 6;
+}
+.event--4a {
+  grid-column: 7;
+  grid-row: 7;
+}
+.event--4a .event__name {
+  border-radius: 20px 0 0 20px;
+}
+.event--4b {
+  grid-column: 1 / span 2;
+  grid-row: 8;
+}
+.event--4b .event__name {
+  border-radius: 0 20px 20px 0;
+}
+.event--5 {
+  grid-column: 5;
+  grid-row: 9;
+}
+*/
+.date:after {
+  position: absolute;
+  z-index: 20;
+  top: 15px;
+  right: 15px;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.event-cell {
+  text-align: center;
+  padding-top: 30px;
+  color: #222;
+}
+.event-cell a:hover {
+  color: #000;
+}
+@media (max-width: 1220px) {
+  .main-content {
+  grid-template-rows: repeat(17, 150px);
+  grid-template-columns: repeat(7, minmax(100px, 1fr));
+    }
+.event-cell {
+  font-size: 16px;
+}
+}
+@media (max-width: 900px) {
+  .date {
+    padding: 10px;
+  }
+.event-cell {
+  padding-top: 25px;
+  font-size: 14px;
+}
+.date .day-of-month {
+  top: 10px;
+  left: 10px;
+  font-size: 12px;
+}
+.date .day-of-week {
+  top: 10px;
+  right: 10px;
+  font-size: 14px;
+}
+.main-content .month {
+    font-size: 60px;
+    font-weight: 700;
+    padding: 30px 20px;
+  }
+  .month--title {
+  grid-column: span 4;
+  text-align: right;
+  padding-right: 20px;
+  }
+}
+@media (max-width: 605px) {
+  .main-content {
+  grid-template-rows: repeat(17, 100px) 80px;
+  grid-template-columns: repeat(7, minmax(52px, 1fr));
+    }
+  .main-content .month {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px 10px;
+  }
+  .month--title {
+  grid-column: span 3;
+  text-align: right;
+  padding-right: 15px;
+  }
+  .date {
+    padding: 3px;
+  }
+  .moreText {
+    display: none;
+  }
+.event-cell {
+  font-size: 10px;
+}
+.date .day-of-month {
+  top: 5px;
+  left: 5px;
+  font-size: 9px;
+}
+.date .day-of-week {
+  top: 5px;
+  right: 5px;
+  font-size: 10px;
+}
+}
