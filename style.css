@@ -364,6 +364,8 @@ a .carde {
 }
 #footer .footer-a {
 	color: #212529;
+	font-size: 1.15em;
+	font-weight: 700;
 }
 #footer .footer-a:hover {
 	color: #000;
