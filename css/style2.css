@@ -723,6 +723,12 @@ footer .footer-copyright {
     color: #bfba55;
     transform: scale(1.1);
 }
+.pdflinks {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 
 .achu {
   background: url(../images/kitchen.jpg);
@@ -748,6 +754,10 @@ footer .footer-copyright {
 .ajes {
   background: url(../images/ajes/1.jpg);
 }
+.report {
+  background: url(../images/activity-report/11.jpeg);
+}
+
 /*---------------------------------------
    Mobile Responsive         
 -----------------------------------------*/
