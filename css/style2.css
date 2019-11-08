@@ -729,6 +729,9 @@ footer .footer-copyright {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+#midd {
+  margin: 0 auto;
+}
 
 .achu {
   background: url(../images/kitchen.jpg);
@@ -756,6 +759,9 @@ footer .footer-copyright {
 }
 .report {
   background: url(../images/activity-report/11.JPEG);
+}
+.metchieh {
+  background: url(../images/people-dancing.jpg);
 }
 
 /*---------------------------------------
