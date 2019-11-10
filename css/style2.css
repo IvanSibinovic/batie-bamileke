@@ -723,11 +723,17 @@ footer .footer-copyright {
     color: #bfba55;
     transform: scale(1.1);
 }
-.pdflinks {
-  font-size: 20px;
+h4.pdflinks, h5.pdflinkinfo {
   text-align: center;
+}
+h4.pdflinks a {
+  color: #333;
+  font-size: 20px;
   margin-top: 1em;
   margin-bottom: 1em;
+}
+h4.pdflinks a:hover {
+  transform: scale(1.1);
 }
 #midd {
   margin: 0 auto;
