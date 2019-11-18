@@ -103,6 +103,9 @@ section h2 {
 	text-decoration: none;
 	margin-left: 7em;
 }
+#history .smaller-headline {
+	font-size: 1.5em;
+}
 .article {
   background-color: white;
   border-radius: 1px;
