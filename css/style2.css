@@ -769,7 +769,9 @@ h4.pdflinks a {
 .metchieh {
   background: url(../images/people-dancing.jpg);
 }
-
+.medical {
+  background: url(../images/medical.jpg);
+}
 /*---------------------------------------
    Mobile Responsive         
 -----------------------------------------*/

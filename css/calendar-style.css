@@ -106,7 +106,7 @@ footer a .icons {
 .main-content {
   display: grid;
   grid-auto-flow: row;
-  grid-template-rows: repeat(17, 170px);
+  grid-template-rows: repeat(22, 170px);
   grid-template-columns: repeat(7, minmax(170px, 1fr));
 }
 .event {
@@ -173,7 +173,7 @@ footer a .icons {
 }
 @media (max-width: 1220px) {
   .main-content {
-  grid-template-rows: repeat(17, 150px);
+  grid-template-rows: repeat(22, 150px);
   grid-template-columns: repeat(7, minmax(100px, 1fr));
     }
 .event-cell {
@@ -211,7 +211,7 @@ footer a .icons {
 }
 @media (max-width: 605px) {
   .main-content {
-  grid-template-rows: repeat(17, 100px) 80px;
+  grid-template-rows: repeat(22, 100px) 80px;
   grid-template-columns: repeat(7, minmax(52px, 1fr));
     }
   .main-content .month {
