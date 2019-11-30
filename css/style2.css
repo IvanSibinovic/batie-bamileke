@@ -825,6 +825,9 @@ h4.pdflinks a {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+  .medical {
+  background: url(../images/medical-small.jpg);
+}
 
 }
 
