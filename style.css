@@ -57,9 +57,6 @@ nav {
 	background-color: #FBEEC1;
 	z-index: 2100;
 }
-nav .navbar-brand img {
-	border-radius: 80px;
-}
 nav #navbarSupportedContent .navbar-nav .nav-item .nav-link {
 	text-transform: uppercase;
 	font-weight: 700;
@@ -396,6 +393,20 @@ a .carde {
 	color: #000;
 }
 
+.cardHolder {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+}
+.myImg {
+  margin: 0.5rem;
+  height: 300px;
+  width: auto;
+  border: 2px solid #777;
+  border-radius: 2px;
+}
 html {
 	scroll-behavior: smooth;
 }
