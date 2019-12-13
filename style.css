@@ -5,6 +5,9 @@ body {
 	box-sizing: border-box;
 	background-color: #FBEEC1;
 }
+.mt-2 {
+	margin-top: 2rem;
+}
 #topbar {
 	padding: 0.5rem 2rem;
 	background-color: #659DBD;
