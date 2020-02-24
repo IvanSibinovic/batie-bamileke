@@ -775,6 +775,9 @@ h4.pdflinks a {
 .medical {
   background: url(../images/medical.jpg);
 }
+.tennis {
+  background: url(../images/batie-tennis-tournament/tennis-ball.jpg);
+}
 /*---------------------------------------
    Mobile Responsive         
 -----------------------------------------*/
@@ -830,6 +833,9 @@ h4.pdflinks a {
   }
   .medical {
   background: url(../images/medical-small.jpg);
+}
+.tennis {
+  background: url(../images/batie-tennis-tournament/tennis-ball-small.jpg);
 }
 
 }
