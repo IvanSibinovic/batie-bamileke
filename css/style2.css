@@ -778,6 +778,21 @@ h4.pdflinks a {
 .tennis {
   background: url(../images/batie-tennis-tournament/tennis-ball.jpg);
 }
+.dropdownTennis ul li {
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.imgHolder {
+  text-align: center;
+  padding: 15px 0;
+}
+.textCenter {
+  text-align: center;
+}
+.mt3onlyWide{
+  margin-top: 110px;
+}
 /*---------------------------------------
    Mobile Responsive         
 -----------------------------------------*/
@@ -836,6 +851,9 @@ h4.pdflinks a {
 }
 .tennis {
   background: url(../images/batie-tennis-tournament/tennis-ball-small.jpg);
+}
+.mt3onlyWide{
+  margin-top: 40px;
 }
 
 }
